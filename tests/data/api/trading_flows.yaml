@@ -1,0 +1,68 @@
+tests:
+  - id: "TC-01"
+    name: "Trader Executes Market Buy Order using Total Available Balance"
+    account: "acc_testing_01"
+    pair: "btc_idr"
+    type: "buy"
+    order_type: "market"
+    percent: 1.0
+  - id: "TC-02"
+    name: "Trader Executes Market Sell Order by Specifying Asset Quantity"
+    account: "acc_testing_01"
+    pair: "btc_idr"
+    type: "sell"
+    order_type: "market"
+    btc: 0.05
+  - id: "TC-03"
+    name: "Trader Places Limit Buy Order at a Price that Gets Filled"
+    account: "acc_testing_01"
+    pair: "btc_idr"
+    type: "buy"
+    order_type: "limit"
+    price: 950000000
+    idr: 10000000
+  - id: "TC-04"
+    name: "Trader Places Limit Sell Order resulting in Partial Execution"
+    account: "acc_testing_01"
+    pair: "btc_idr"
+    type: "sell"
+    order_type: "limit"
+    price: 1050000000
+    btc: 1.0
+  - id: "TC-05"
+    name: "Trader Manages Risk with Stop-Limit Sell Order to Mitigate Loss"
+    account: "acc_testing_01"
+    pair: "btc_idr"
+    type: "sell"
+    order_type: "stop_limit"
+    stop_price: 850000000
+    price: 845000000
+  - id: "TC-06"
+    name: "Trader Capitalizes on Breakout with Stop-Limit Buy Order"
+    account: "acc_testing_01"
+    pair: "btc_idr"
+    type: "buy"
+    order_type: "stop_limit"
+    stop_price: 1050000000
+    price: 1055000000
+  - id: "TC-07"
+    name: "Trader is Prohibited from Trading Below Minimum Transaction Limit"
+    account: "acc_testing_01"
+    pair: "btc_idr"
+    type: "buy"
+    idr: 5000
+  - id: "TC-08"
+    name: "Trader Releases Frozen Funds by Cancelling Open Order"
+    account: "acc_testing_01"
+    pair: "btc_idr"
+    type: "buy"
+    order_type: "limit"
+    price: 950000000
+    idr: 10000000
+  - id: "TC-09"
+    name: "Trader Validates Transaction Settlement after Tax Policy Update"
+    account: "acc_testing_01"
+    pair: "btc_idr"
+    type: "sell"
+    idr: 25000000
+    timestamp: 1609459200

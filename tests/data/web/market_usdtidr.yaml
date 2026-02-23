@@ -1,0 +1,106 @@
+tests:
+  - id: TC-01
+    name: Trader Executes Market Buy Order using Total Available Balance
+    scenario: >
+      Trader membeli USDT menggunakan seluruh saldo IDR yang tersedia dengan Market Order 100%.
+    mode:
+      - lite
+      - pro
+    tags:
+      - p0
+    pair: usdt_idr
+    expected_status: aktif
+  - id: TC-02
+    name: Trader Executes Market Sell Order by Specifying Asset Quantity
+    scenario: >
+      Trader menjual sebagian saldo USDT (misal 500 USDT) pada pasangan USDT/IDR dengan Market Order.
+    initial_usdt_balance: 1000
+    sell_amount: 500
+    mode:
+      - lite
+      - pro
+    tags:
+      - p0
+    pair: usdt_idr
+    expected_status: aktif
+  - id: TC-03
+    name: Trader Places Limit Buy Order at a Price that Gets Filled
+    scenario: >
+      Trader memasang Limit Buy USDT/IDR pada harga tertentu yang akhirnya tereksekusi.
+    initial_idr_balance: 20000000
+    limit_price: 15800
+    slider_percentage: 50
+    hold_amount_idr: 10000000
+    mode:
+      - pro
+    tags:
+      - p0
+    pair: usdt_idr
+    expected_status: terbuku
+  - id: TC-04
+    name: Trader Places Limit Sell Order resulting in Partial Execution
+    scenario: >
+      Trader memasang Limit Sell USDT/IDR 1.000 USDT pada harga tertentu dan hanya sebagian yang tereksekusi sebelum dibatalkan.
+    initial_usdt_balance: 1000
+    limit_sell_price: 16500
+    sell_amount: 1000
+    partial_fill_amount: 400
+    remaining_amount: 600
+    mode:
+      - pro
+    tags:
+      - p1
+    pair: usdt_idr
+    expected_status: terbuku
+  - id: TC-05
+    name: Trader Manages Risk with Stop-Limit Sell Order to Mitigate Loss
+    scenario: >
+      Trader memasang Stop-Limit Sell USDT/IDR untuk mengunci kerugian ketika harga turun.
+    initial_usdt_balance: 500
+    stop_price: 15500
+    limit_price: 15400
+    mode:
+      - pro
+    tags:
+      - p1
+    pair: usdt_idr
+    expected_status: terbuku
+  - id: TC-06
+    name: Trader Capitalizes on Breakout with Stop-Limit Buy Order
+    scenario: >
+      Trader memasang Stop-Limit order untuk masuk pasar ketika harga menembus level resistensi.
+    initial_idr_balance: 50000000
+    stop_price: 16500
+    limit_price: 16600
+    mode:
+      - pro
+    tags:
+      - p1
+    pair: usdt_idr
+    expected_status: terbuku
+  - id: TC-07
+    name: Trader is Prohibited from Trading Below Minimum Transaction Limit
+    scenario: >
+      Trader mencoba melakukan transaksi di bawah batas minimum nominal yang diizinkan.
+    invalid_amount_idr: 5000
+    expected_warning: Minimal transaksi adalah Rp25.000
+    mode:
+      - lite
+      - pro
+    tags:
+      - p2
+    pair: usdt_idr
+    expected_status: aktif
+  - id: TC-08
+    name: Trader Releases Frozen Funds by Cancelling Open Order
+    scenario: >
+      Trader membatalkan Limit Buy order yang masih open untuk mengembalikan saldo IDR terbeku menjadi saldo aktif.
+    limit_price: 15800
+    slider_percentage: 50
+    hold_amount_idr: 10000000
+    mode:
+      - pro
+    tags:
+      - p1
+    pair: usdt_idr
+    expected_status: terbuku_ke_aktif

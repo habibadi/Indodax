@@ -1,0 +1,152 @@
+{"level":30,"time":"2026-02-23T20:18:32.401Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Listening on 127.0.0.1:54462"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-02-23T20:18:32.612Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:32.612Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:32.617Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:32.617Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-02-23T20:18:32.779Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:32.779Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:32.782Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:32.782Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-02-23T20:18:32.945Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:32.945Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:32.949Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:32.949Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-02-23T20:18:33.110Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.110Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.113Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.113Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-02-23T20:18:33.251Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.251Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.255Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.256Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-02-23T20:18:33.404Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.404Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.407Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.407Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-02-23T20:18:33.543Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.544Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.546Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.546Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-02-23T20:18:33.690Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.690Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\astar\OneDrive\Dokumen\anaconda3\lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-02-23T20:18:33.698Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.698Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T20:18:33.918Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-02-23T20:18:33.919Z","pid":138212,"hostname":"DESKTOP-IN17GQ6","msg":"End of node method closeAllBrowsers"}
