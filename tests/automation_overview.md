@@ -551,15 +551,4 @@ Dengan pola ini:
     - Strategi tagging yang granular dan eksekusi berbasis tag.
     - Orkestrasi CI/CD dan integrasi reporting.
   
-- **Catatan**
-  - Desain untuk load/performance test sudah tercakup di dokumen arsitektur.
-  - Repository ini sudah menyertakan **contoh implementasi load test**
-    berbasis Locust untuk dummy REST API (`tests/performance/locust_dummy_rest_api.py`)
-    sebagai referensi pola:
-    - Struktur user & task.
-    - Listener untuk summary & interpretasi.
-    - Opsi CLI untuk mengatur target RPS dan wait time.
-  - Implementasi load/performance test terhadap sistem Indodax yang sesungguhnya
-    akan dilakukan di fase terpisah, mengikuti prinsip desain yang sama tetapi
-    mengarah ke endpoint dan data internal Indodax, bukan dummy API publik.
 
